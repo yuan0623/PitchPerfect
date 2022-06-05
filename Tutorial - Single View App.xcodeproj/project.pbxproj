@@ -13,6 +13,8 @@
 		400688322249B66C0042123D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400688312249B66C0042123D /* Assets.xcassets */; };
 		400688352249B66C0042123D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400688332249B66C0042123D /* LaunchScreen.storyboard */; };
 		400688402249B66D0042123D /* Tutorial___Single_View_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006883F2249B66D0042123D /* Tutorial___Single_View_AppTests.swift */; };
+		FF621157284B8E4F00AD38FF /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF621156284B8E4F00AD38FF /* PlaySoundsViewController.swift */; };
+		FF62115B284CFEF700AD38FF /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF62115A284CFEF600AD38FF /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4006883B2249B66D0042123D /* Tutorial - Single View AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial - Single View AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4006883F2249B66D0042123D /* Tutorial___Single_View_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tutorial___Single_View_AppTests.swift"; sourceTree = "<group>"; };
 		400688412249B66D0042123D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF621156284B8E4F00AD38FF /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		FF62115A284CFEF600AD38FF /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				400688312249B66C0042123D /* Assets.xcassets */,
 				400688332249B66C0042123D /* LaunchScreen.storyboard */,
 				400688362249B66D0042123D /* Info.plist */,
+				FF621156284B8E4F00AD38FF /* PlaySoundsViewController.swift */,
+				FF62115A284CFEF600AD38FF /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = "Tutorial - Single View App";
 			sourceTree = "<group>";
@@ -198,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4006882D2249B6560042123D /* RecordSoundViewController.swift in Sources */,
+				FF621157284B8E4F00AD38FF /* PlaySoundsViewController.swift in Sources */,
 				4006882B2249B6560042123D /* AppDelegate.swift in Sources */,
+				FF62115B284CFEF700AD38FF /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
